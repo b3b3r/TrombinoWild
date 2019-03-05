@@ -1,4 +1,79 @@
-.form-contact{
-    width: 500px;
+/*-------------- GENERAL -------------*/
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 3em;
+  text-align: center;
+
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-bottom: 25px;
+}
+
+/*-------------- PAGE CONTACT -------------*/
+.formulaire{
+    width: 85%;
     margin: 0 auto;
+}
+
+.form-contact{
+  margin-bottom: 15px;
+}
+.form-contact > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-contact > div > label{
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.form-contact > div > input{
+  line-height: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+.form-contact > div > textarea{
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+button{
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFF;
+  border-radius: 10px;
+  background-color: #292736;
+}
+
+button:hover{
+  background-color: #4ECDC4;
+}
+
+/*-------------- RESPONSIVE -------------*/
+@media screen and (min-width: 950px){
+  .formulaire{
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  .form-contact{
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+
 }
