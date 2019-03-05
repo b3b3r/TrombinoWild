@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form class="form-contact" method="post" action="contact.php"> <!-- plus tard action="site" sera envoyé sur une page php hebergée sur un serveur pour recueillir les données-->
+        <div>
+            <label for="nom">Votre Nom</label>
+            <input type="text" name="nom" placeholder="Jean-Miche Premierdegré">
+        </div>
+
+        <div>
+            <label for="email">Votre Email</label>
+            <input type="email" name="email" placeholder="@">
+        </div>
+        <div>
+            <label for="sujet">Votre Sujet</label>
+            <input type="text" name="sujet" placeholder=" ">
+        </div>
+        <div>
+            <label for="message">Votre Message</label>
+            <textarea name="message" id="message" placeHolder="Votre Message..."></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+
+    </form>
+
+</body>
+
+</html>
