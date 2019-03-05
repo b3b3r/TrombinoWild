@@ -1,0 +1,36 @@
+.bloc-image {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bloc-texte {
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+	margin-bottom:10px;
+}
+
+.bloc-bouton {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bouton-trombi{
+	border: 0.5;
+	line-height: 2.5;
+	padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #4ecdc4;
+}
+
+.bouton-trombi:hover {
+    background-color: #4ecdc4;
+}
