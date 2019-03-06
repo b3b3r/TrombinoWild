@@ -65,7 +65,7 @@ nav a:hover {
 .nom-promo {
     position: absolute;
     width: 100%;
-    top: 33%;
+    bottom:0;
     font-size: 3em;
     text-align: center;
     margin: 0;
@@ -137,32 +137,7 @@ footer a:hover {
     color: #4ECDC4;
 }
 
-/* -----------------------------MEDIA QUERIES--------------------------------- */
-@media screen and (min-width: 200px) and (max-width: 629px) {
-    .topbar {
-        flex-direction: column;
-        justify-content: center;
-    }
 
-    .topbar img {
-        margin-left: 0;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-        padding-bottom: 5px;
-        width: 30%;
-    }
-
-    .bloc-text {
-        margin: 50px;
-    }
-
-    .nom-promo {
-        font-size: x-large;
-    }
 
 /*-------------- GENERAL -------------*/
 h1{
@@ -303,6 +278,33 @@ button:hover{
 }
 
 /*-------------- RESPONSIVE -------------*/
+
+/* -----------------------------MEDIA QUERIES--------------------------------- */
+@media screen and (min-width: 200px) and (max-width: 629px) {
+    .topbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topbar img {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding-bottom: 5px;
+        width: 30%;
+    }
+
+    .bloc-text {
+        margin: 50px;
+    }
+
+    .nom-promo {
+        font-size: x-large;
+    }
 @media screen and (min-width: 950px){
   .formulaire{
       width: 75%;
