@@ -1,0 +1,165 @@
+/* -----------------------------HEADER ---------------------------  */
+
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 129px;
+}
+
+.active {
+    color: #4ECDC4;
+    border-bottom: solid 3px #4ECDC4;
+}
+
+.topbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcde8f;
+}
+
+.topbar img {
+    width: 200px;
+    padding-bottom: 7px;
+    margin-left: 30%;
+    padding-top: 9px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 7%;
+}
+
+nav a {
+    font-family: 'Oswald';
+    color: #292736;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+nav a:hover {
+    color: #4ECDC4;
+    transition: .4s;
+}
+
+/* -----------------------------BODY PAGE--------------------------------- */
+
+
+.main-page {
+
+    width: 100%;
+    padding-top: 129px;
+}
+
+.image-header {
+    width: 100%;
+}
+
+.nom-promo {
+    position: absolute;
+    width: 100%;
+    top: 33%;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    color: #292736;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nom-promo h1 {
+    line-height: 100;
+}
+
+.maclasse {
+    position: relative;
+}
+
+body {
+    margin: 0 0;
+}
+
+.bloc-text {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bloc-text a {
+    text-decoration: none;
+    color: #292736;
+}
+
+.bloc-text a:hover {
+    color: #4ECDC4;
+}
+
+/* -----------------------------FOOTER--------------------------------- */
+
+footer img {
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    color: #292736;
+}
+
+footer p:last-child {
+    margin: 0;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+footer p:first-child {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #fcde8f;
+}
+
+footer a {
+    color: #292736;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4ECDC4;
+}
+
+/* -----------------------------MEDIA QUERIES--------------------------------- */
+@media screen and (min-width: 200px) and (max-width: 629px) {
+    .topbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topbar img {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding-bottom: 5px;
+        width: 30%;
+    }
+
+    .bloc-text {
+        margin: 50px;
+    }
+
+    .nom-promo {
+        font-size: x-large;
+    }
+}
