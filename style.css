@@ -1,24 +1,35 @@
 .bloc-image-detail {
 	display: flex;
 	justify-content: center;
+	margin: 50px;
 }
 
 .bloc-liste {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.bloc-liste-1 {
+.bloc-liste-competence {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	margin-right: 50px;
 }
 
 .bloc-reseau-social {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .bloc-reseau-social .logo-reseau-social {
-	width:30px;
+	width: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.bloc-reseau-social .logo-reseau-social-courriel{
+	width: 38px;
+	height: 35px;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
