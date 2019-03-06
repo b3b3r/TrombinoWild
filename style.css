@@ -1,3 +1,4 @@
+
 /* -----------------------------HEADER ---------------------------  */
 
 
@@ -162,4 +163,156 @@ footer a:hover {
     .nom-promo {
         font-size: x-large;
     }
+
+/*-------------- GENERAL -------------*/
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 1.5em;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-bottom: 25px;
+  text-align: justify;
+}
+
+/*-------------- Page TROMBINO -------------*/
+.bloc-image {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+  align-items: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.espace{
+  margin-top: 10px;
+	margin-bottom: 10px;
+}
+.trombi{
+  border: 2px solid #4ecdc4;
+  display: flex;
+  flex-direction: column;
+}
+
+.trombi:hover .textebloc{
+  background-color: #4ecdc4;
+}
+
+.trombi:hover .textebloc > p{
+  color: #FFFFFF;
+}
+
+.textebloc {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  background-color: #fcde8f;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.espace > a{
+  text-decoration: none;
+}
+.textebloc > p{
+    padding-bottom: 0px;
+    color: #292736;
+}
+
+/* bouton contact */
+.bloc-bouton {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bouton-trombi{
+	border: 0.5;
+	line-height: 2.5;
+	padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #292736;
+}
+
+.bouton-trombi:hover {
+    background-color: #4ecdc4;
+}
+
+/*-------------- PAGE CONTACT -------------*/
+.formulaire{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.form-contact{
+  margin-bottom: 15px;
+}
+.form-contact > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-contact > div > label{
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.form-contact > div > input{
+  line-height: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+.form-contact > div > textarea{
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+button{
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFF;
+  border-radius: 10px;
+  background-color: #292736;
+}
+
+button:hover{
+  background-color: #4ECDC4;
+}
+
+/*-------------- RESPONSIVE -------------*/
+@media screen and (min-width: 950px){
+  .formulaire{
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  .form-contact{
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+ trombino
 }
