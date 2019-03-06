@@ -1,0 +1,24 @@
+.bloc-image-detail {
+	display: flex;
+	justify-content: center;
+}
+
+.bloc-liste {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.bloc-liste-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bloc-reseau-social {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bloc-reseau-social .logo-reseau-social {
+	width:30px;
+}
