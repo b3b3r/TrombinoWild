@@ -4,13 +4,19 @@ h1{
   color: #292736;
   font-size: 3em;
   text-align: center;
+}
 
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 1.5em;
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   padding-bottom: 25px;
+  text-align: justify;
 }
 
 /*-------------- Page TROMBINO -------------*/
@@ -18,17 +24,33 @@ p{
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-around;
-	margin-top: 50px;
+  align-items: center;
+	margin-top: 20px;
 	margin-bottom: 50px;
+}
+
+.espace{
+  margin-top: 10px;
+	margin-bottom: 10px;
+}
+.trombi{
+  border: 1px solid #4ecdc4;
+  display: flex;
+  flex-direction: column;
 }
 
 .bloc-texte {
 	display: flex;
-	justify-content: space-between;
-	align-self: flex-start;
-	margin-bottom:10px;
+	justify-content: space-around;
+	align-items: center;
+  padding-top:5px;
+	padding-bottom:5px;
+  background-color: #fcde8f;
 }
 
+
+
+/* bouton contact */
 .bloc-bouton {
 	display: flex;
 	justify-content: center;
