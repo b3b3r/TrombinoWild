@@ -61,10 +61,7 @@ nav a:hover {
 }
 
 .nom-promo {
-    position: absolute;
     width: 100%;
-    bottom:0;
-    font-size: 3em;
     text-align: center;
     margin: 0;
     color: #292736;
@@ -77,6 +74,13 @@ nav a:hover {
 
 .maclasse {
     position: relative;
+    height: 60vh;
+    background-image: url(img/photoheaderhome.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 body {
@@ -95,6 +99,22 @@ body {
 
 .bloc-text a:hover {
     color: #4ECDC4;
+}
+
+/* -----------------------------RECHERCHE--------------------------------- */
+.maclasse2 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: #292736;
+  
+}
+
+.recherche {
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin:5px;
 }
 
 /* -----------------------------FOOTER--------------------------------- */
