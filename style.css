@@ -113,7 +113,7 @@ body {
 
 /* -----------------------------RECHERCHE--------------------------------- */
 .maclasse2 {
-  min-width: 300px;
+  
   width: 100%;
   margin:10px;
   text-align: center;
@@ -129,6 +129,8 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   margin:0px;
+    min-width: 300px
+    
 }
 
 /* -----------------------------FOOTER--------------------------------- */
