@@ -49,9 +49,7 @@ nav a:hover {
 
 /* -----------------------------BODY PAGE--------------------------------- */
 
-
 .main-page {
-
     width: 100%;
     padding-top: 129px;
 }
@@ -61,22 +59,25 @@ nav a:hover {
 }
 
 .nom-promo {
-    position: absolute;
     width: 100%;
-    bottom:0;
-    font-size: 3em;
     text-align: center;
     margin: 0;
     color: #292736;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.nom-promo h1 {
-    line-height: 100;
+h1.nom-promo {
+    line-height: 80px;
 }
 
 .maclasse {
-    position: relative;
+    height: 60vh;
+    background-image: url(img/photoheaderhome.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 body {
@@ -88,6 +89,11 @@ body {
     margin-right: 20%;
 }
 
+.bloc-text p {
+    padding: 1.5px 0px;
+    line-height: 30px;
+}
+
 .bloc-text a {
     text-decoration: underline;
     color: #292736;
@@ -95,6 +101,23 @@ body {
 
 .bloc-text a:hover {
     color: #4ECDC4;
+}
+
+/* -----------------------------RECHERCHE--------------------------------- */
+.maclasse2 {
+  width: 100%;
+  margin:10px;
+  text-align: center;
+  color: #292736;
+
+  
+}
+
+.recherche {
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin:0px;
 }
 
 /* -----------------------------FOOTER--------------------------------- */
