@@ -49,9 +49,7 @@ nav a:hover {
 
 /* -----------------------------BODY PAGE--------------------------------- */
 
-
 .main-page {
-
     width: 100%;
     padding-top: 129px;
 }
@@ -61,22 +59,26 @@ nav a:hover {
 }
 
 .nom-promo {
-    position: absolute;
     width: 100%;
-    bottom:0;
-    font-size: 3em;
     text-align: center;
     margin: 0;
     color: #292736;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.nom-promo h1 {
-    line-height: 100;
+h1.nom-promo {
+    line-height: 80px;
 }
 
 .maclasse {
-    position: relative;
+    height: 60vh;
+    background-image: url(img/photoheaderhome.jpg);
+   max-height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 body {
@@ -86,6 +88,12 @@ body {
 .bloc-text {
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 90px;
+}
+
+.bloc-text p {
+    padding: 1.5px 0px;
+    line-height: 30px;
 }
 
 .bloc-text a {
@@ -95,6 +103,34 @@ body {
 
 .bloc-text a:hover {
     color: #4ECDC4;
+}
+
+.bloc-text h2{
+    padding-left: 0;
+}
+
+
+
+/* -----------------------------RECHERCHE--------------------------------- */
+.maclasse2 {
+  
+  width: 100%;
+  margin:10px;
+  text-align: center;
+  color: #292736; 
+}
+
+.maclasse2 a{
+    text-decoration: none;
+}
+
+.recherche {
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin:0px;
+  
+    
 }
 
 /* -----------------------------FOOTER--------------------------------- */
@@ -270,8 +306,16 @@ button{
   background-color: #292736;
 }
 
+.bloc-bouton a:hover {
+  text-decoration: none;
+}
+
 button:hover{
   background-color: #4ECDC4;
+}
+
+.formulaire p {
+  margin-left: 0;
 }
 
 /* -----------------------------PAGE DETAILS--------------------------------- */
@@ -306,6 +350,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 
@@ -323,7 +368,9 @@ button:hover{
     margin-bottom: 15px;
   }
 
-
+    .recherche{
+        min-width: 300px
+    }
 
 .bloc-liste {
 	display: flex;
@@ -373,12 +420,22 @@ button:hover{
     }
 
     .nom-promo {
-        font-size: x-large;
+       font-size:30px;
     }
     
      .detail-paragraphe,.bloc-liste-competence{
     margin:50px 50px;
 }
     
+    .maclasse2{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 50%;
+    }
+    .recherche{
+        margin-bottom: 5px;
+        
+    }
    
     }
