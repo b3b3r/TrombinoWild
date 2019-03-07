@@ -1,0 +1,415 @@
+/* -----------------------------HEADER ---------------------------  */
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 129px;
+}
+
+.active {
+    color: #4ECDC4;
+    border-bottom: solid 3px #4ECDC4;
+}
+
+.topbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcde8f;
+}
+
+.topbar img {
+    width: 200px;
+    padding-bottom: 7px;
+    margin-left: 30%;
+    padding-top: 9px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 7%;
+}
+
+nav a {
+    font-family: 'Oswald';
+    color: #292736;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+nav a:hover {
+    color: #4ECDC4;
+    transition: .4s;
+}
+
+/* -----------------------------BODY PAGE--------------------------------- */
+
+.main-page {
+    width: 100%;
+    padding-top: 129px;
+}
+
+.image-header {
+    width: 100%;
+}
+
+.nom-promo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #292736;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1.nom-promo {
+    line-height: 80px;
+}
+
+.maclasse {
+    height: 60vh;
+    background-image: url(img/photoheaderhome.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+body {
+    margin: 0 0;
+}
+
+.bloc-text {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bloc-text p {
+    padding: 1.5px 0px;
+    line-height: 30px;
+}
+
+.bloc-text a {
+    text-decoration: underline;
+    color: #292736;
+}
+
+.bloc-text a:hover {
+    color: #4ECDC4;
+}
+
+/* -----------------------------RECHERCHE--------------------------------- */
+.maclasse2 {
+  width: 100%;
+  margin:10px;
+  text-align: center;
+  color: #292736;
+
+  
+}
+
+.recherche {
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin:0px;
+}
+
+/* -----------------------------FOOTER--------------------------------- */
+
+footer img {
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    color: #292736;
+}
+
+footer p:last-child {
+    margin: 0;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+footer p:first-child {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #fcde8f;
+}
+
+footer a {
+    color: #292736;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4ECDC4;
+}
+
+/*-------------- GENERAL -------------*/
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  color: #292736;
+  font-size: 1.5em;
+  padding-left: 8%;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-bottom: 25px;
+  text-align: justify;
+}
+
+/*-------------- Page TROMBINO -------------*/
+.bloc-image {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+  align-items: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.espace{
+  margin-top: 10px;
+	margin-bottom: 10px;
+}
+.trombi{
+  border: 2px solid #4ecdc4;
+  display: flex;
+  flex-direction: column;
+}
+
+.trombi:hover .textebloc{
+  background-color: #4ecdc4;
+}
+
+.trombi:hover .textebloc > p{
+  color: #FFFFFF;
+}
+
+.textebloc {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  background-color: #fcde8f;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.espace > a{
+  text-decoration: none;
+}
+.textebloc > p{
+    padding-bottom: 0px;
+    color: #292736;
+}
+
+/* bouton contact */
+.bloc-bouton {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bouton-trombi{
+	border: 0.5;
+	line-height: 2.5;
+	padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #292736;
+}
+
+.bouton-trombi:hover {
+    background-color: #4ecdc4;
+}
+
+/*-------------------------------------------------------- PAGE CONTACT ---------------------------------------------------------------------*/
+.formulaire{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.form-contact{
+  margin-bottom: 15px;
+}
+.form-contact > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-contact > div > label{
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.form-contact > div > input{
+  line-height: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+.form-contact > div > textarea{
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+button{
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFF;
+  border-radius: 10px;
+  background-color: #292736;
+}
+
+.bloc-bouton a:hover {
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: #4ECDC4;
+}
+
+.formulaire p {
+  margin-left: 0;
+}
+
+/* -----------------------------PAGE DETAILS--------------------------------- */
+
+
+.bloc-reseau-social img{
+    max-width: 45px;
+}
+
+.bloc-image-detail {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+
+   .detail-paragraphe,.bloc-liste-competence{
+    margin:50px 150px;
+       line-height: 30px;
+}
+
+.bloc-reseau-social .logo-reseau-social-courriel{
+    max-width: 33px;
+    margin-right:6px;
+
+}
+
+.bloc-reseau-social .logo-reseau-social{
+    max-width: 45px;
+}
+.bloc-reseau-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -----------------------------MEDIA QUERIES--------------------------------- */
+
+
+@media screen and (min-width: 950px){
+  .formulaire{
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  .form-contact{
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+
+
+.bloc-liste {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.bloc-liste-competence {
+	display: flex;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+.bloc-reseau-social {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+    
+    
+ 
+  }
+
+
+
+@media screen and (min-width: 200px) and (max-width: 629px) {
+    .topbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topbar img {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding-bottom: 5px;
+        width: 30%;
+    }
+
+    .bloc-text {
+        margin: 50px;
+    }
+
+    .nom-promo {
+        font-size: x-large;
+    }
+    
+     .detail-paragraphe,.bloc-liste-competence{
+    margin:50px 50px;
+}
+    
+   
+    }

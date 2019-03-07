@@ -1,22 +1,70 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Contact</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+
 
 <body>
-    <header></header>
-    <section></section>
-    <aside></aside>
+
+    <header class="topbar">
+        <a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="trombino.html">Trombino</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
 
 
-</body>
+    <section class="formulaire main-page">
 
+      <h1>Contact</h1>
+      <p class="detail-paragraphe">
+        Vous souhaitez contacter l’équipe ou un membre de l’équipe ?
+        <br />Vous avez un projet ?
+        <br />Ce formulaire est là pour vous !
+      </p>
+      <form class="form-contact" method="post" action="contact.php"> <!-- plus tard action="site" sera envoyé sur une page php hebergée sur un serveur pour recueillir les données-->
+          <div>
+              <label for="nom">Votre nom</label>
+              <input type="text" name="nom" placeholder="Jean-Michel Premierdegré">
+          </div>
 
+          <div>
+              <label for="email">Votre email</label>
+              <input type="email" name="email" placeholder="@">
+          </div>
+          <div>
+              <label for="sujet">Votre sujet</label>
+              <input type="text" name="sujet" placeholder=" ">
+          </div>
+          <div>
+              <label for="message">Votre message</label>
+              <textarea name="message" id="message" placeHolder="Votre Message..."></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
 
+      </form>
 
+    </section>
+
+    <footer>
+
+        <p><a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a></p>
+            <p><a href="contact.html">CONTACT</a>
+            - <a href="#">MENTION LEGALES</a>
+            - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
+
+    </footer>
+
+  </body>
 
 </html>
+
