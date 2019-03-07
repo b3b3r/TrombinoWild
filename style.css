@@ -89,7 +89,7 @@ body {
 }
 
 .bloc-text a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #292736;
 }
 
