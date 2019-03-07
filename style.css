@@ -224,7 +224,7 @@ p{
     background-color: #4ecdc4;
 }
 
-/*-------------- PAGE CONTACT -------------*/
+/*-------------------------------------------------------- PAGE CONTACT ---------------------------------------------------------------------*/
 .formulaire{
     width: 85%;
     margin: 0 auto;
@@ -270,12 +270,94 @@ button{
   background-color: #292736;
 }
 
+.bloc-bouton a:hover {
+  text-decoration: none;
+}
+
 button:hover{
   background-color: #4ECDC4;
 }
 
+.formulaire p {
+  margin-left: 0;
+}
+
+/* -----------------------------PAGE DETAILS--------------------------------- */
+
+
+.bloc-reseau-social img{
+    max-width: 45px;
+}
+
+.bloc-image-detail {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+
+   .detail-paragraphe,.bloc-liste-competence{
+    margin:50px 150px;
+       line-height: 30px;
+}
+
+.bloc-reseau-social .logo-reseau-social-courriel{
+    max-width: 33px;
+    margin-right:6px;
+
+}
+
+.bloc-reseau-social .logo-reseau-social{
+    max-width: 45px;
+}
+.bloc-reseau-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* -----------------------------MEDIA QUERIES--------------------------------- */
+
+
+@media screen and (min-width: 950px){
+  .formulaire{
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  .form-contact{
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+
+
+.bloc-liste {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.bloc-liste-competence {
+	display: flex;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+.bloc-reseau-social {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+    
+    
+ 
+  }
+
+
+
 @media screen and (min-width: 200px) and (max-width: 629px) {
     .topbar {
         flex-direction: column;
@@ -301,52 +383,10 @@ button:hover{
     .nom-promo {
         font-size: x-large;
     }
+    
+     .detail-paragraphe,.bloc-liste-competence{
+    margin:50px 50px;
+}
+    
+   
     }
-
-@media screen and (min-width: 950px){
-  .formulaire{
-      width: 75%;
-      margin: 0 auto;
-  }
-
-  .form-contact{
-    width: 500px;
-    margin-bottom: 15px;
-  }
-
-.bloc-image-detail {
-	display: flex;
-	justify-content: center;
-	margin: 50px;
-}
-
-.bloc-liste {
-	display: flex;
-	justify-content: flex-start;
-}
-
-.bloc-liste-competence {
-	display: flex;
-	justify-content: center;
-	margin-right: 50px;
-}
-
-.bloc-reseau-social {
-	display: flex;
-	justify-content: center;
-}
-
-.bloc-reseau-social .logo-reseau-social {
-	width: 45px;
-	margin-right: 25px;
-	margin-left: 25px;
-}
-
-.bloc-reseau-social .logo-reseau-social-courriel{
-	width: 38px;
-	height: 35px;
-	margin-top: 5px;
-	margin-right: 25px;
-	margin-left: 25px;
-}
-  }
