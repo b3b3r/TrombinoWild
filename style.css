@@ -1,6 +1,5 @@
 /* -----------------------------HEADER ---------------------------  */
 
-
 header {
     position: fixed;
     z-index: 10;
@@ -64,7 +63,7 @@ nav a:hover {
 .nom-promo {
     position: absolute;
     width: 100%;
-    top: 33%;
+    bottom:0;
     font-size: 3em;
     text-align: center;
     margin: 0;
@@ -136,33 +135,6 @@ footer a:hover {
     color: #4ECDC4;
 }
 
-/* -----------------------------MEDIA QUERIES--------------------------------- */
-@media screen and (min-width: 200px) and (max-width: 629px) {
-    .topbar {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .topbar img {
-        margin-left: 0;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-        padding-bottom: 5px;
-        width: 30%;
-    }
-
-    .bloc-text {
-        margin: 50px;
-    }
-
-    .nom-promo {
-        font-size: x-large;
-    }
-
 /*-------------- GENERAL -------------*/
 h1{
   font-family: 'Fredericka the Great', cursive;
@@ -175,6 +147,7 @@ h2{
   font-family: 'Fredericka the Great', cursive;
   color: #292736;
   font-size: 1.5em;
+  padding-left: 8%;
 }
 
 p{
@@ -301,7 +274,35 @@ button:hover{
   background-color: #4ECDC4;
 }
 
-/*-------------- RESPONSIVE -------------*/
+
+/* -----------------------------MEDIA QUERIES--------------------------------- */
+@media screen and (min-width: 200px) and (max-width: 629px) {
+    .topbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topbar img {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding-bottom: 5px;
+        width: 30%;
+    }
+
+    .bloc-text {
+        margin: 50px;
+    }
+
+    .nom-promo {
+        font-size: x-large;
+    }
+    }
+
 @media screen and (min-width: 950px){
   .formulaire{
       width: 75%;
@@ -348,3 +349,4 @@ button:hover{
 	margin-right: 25px;
 	margin-left: 25px;
 }
+  }
