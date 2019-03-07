@@ -401,6 +401,7 @@ button:hover{
     .topbar {
         flex-direction: column;
         justify-content: center;
+        font-size:13px;
     }
 
     .topbar img {
