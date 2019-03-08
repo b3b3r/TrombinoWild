@@ -403,6 +403,7 @@ button:hover{
         justify-content: center;
         
     }
+    
 
     .topbar img {
         margin-left: 0;
@@ -415,6 +416,12 @@ button:hover{
         padding-bottom: 5px;
         width: 30%;
     }
+    
+    nav a{
+        font-size: 1.4em;
+    }
+    
+   
 
     .bloc-text {
         margin: 50px;
