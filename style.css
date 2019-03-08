@@ -358,6 +358,9 @@ button:hover{
 }
 
 
+.bloc-liste li {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* -----------------------------MEDIA QUERIES--------------------------------- */
 
