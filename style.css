@@ -310,6 +310,10 @@ button{
   text-decoration: none;
 }
 
+.bloc-bouton a{
+    text-decoration: none;
+}
+
 button:hover{
   background-color: #4ECDC4;
 }
@@ -352,6 +356,7 @@ button:hover{
     align-items: center;
     padding-bottom: 50px;
 }
+
 
 
 /* -----------------------------MEDIA QUERIES--------------------------------- */
