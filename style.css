@@ -353,7 +353,9 @@ button:hover{
     padding-bottom: 50px;
 }
 
-
+.bloc-liste li {
+  font-family: 'Montserrat', sans-serif;
+}
 /* -----------------------------MEDIA QUERIES--------------------------------- */
 
 
