@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -23,62 +22,30 @@
         </nav>
     </header>
 
-    <section class="main-page">
+  <section class="main-page">
     <h1>Trombinoscope</h1>
+      <div class="bloc-filtre-bouton">
+        <button class="bouton-filtre filtreTout"; onclick="trombiFilter(students,languageFilter = 'ALL')";>TOUT</button>
+        <button class="bouton-filtre filtrePhp "; onclick="trombiFilter(students,languageFilter = 'PHP')";>PHP</button>
+        <button class="bouton-filtre filtreJs"; onclick="trombiFilter(students,languageFilter = 'JS')";>JS</button>
+      </div>
 
-    <h2>PHP</h2>
-
+  <div class="bloc-filtre">
     <div class="bloc-image">
       <div class="espace">
         <a href="detail-Geoffrey.html"><div class="trombi">
-          <img src="https://i.postimg.cc/qR22tMHn/geoffrey.jpg" alt="Geoffrey">
+          <img class="imageStudent" src="https://i.postimg.cc/qR22tMHn/geoffrey.jpg" alt="Etudiant">
           <div class="textebloc">
             <p class="prenom-nom">Geoffrey Bédlé</p>
-            <img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
+            <img class="logoPromo" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
           </div>
         </div></a>
       </div>
-      <div class="espace">
-      	<a href="detail-Malika.html"><div class="trombi">
-      		<img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
-      		<div class="textebloc">
-      			<p class="prenom-nom">Malika Céladon</p>
-      			<img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
-      		</div>
-      	</div></a>
-      </div>
-      <div class="espace">
-      	<a href="detail-Emmanuel.html"><div class="trombi">
-      		<img src="https://i.postimg.cc/L5xp3yCm/Emmanuel.jpg" alt="Malika">
-      		<div class="textebloc">
-      			<p class="prenom-nom">Emmanuel Plumas</p>
-      			<img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
-      		</div>
-      	</div></a>
-      </div>
     </div>
-
-    <h2>JAVASCRIPT</h2>
-
-      <div class="bloc-image">
-        <div class="espace">
-        	<a href="detail-Bertrand.html"><div class="trombi">
-        		<img src="https://i.postimg.cc/8cBh7XCh/bertrand.jpg">
-        		<div class="textebloc">
-        			<p class="prenom-nom">Bertrand Seguinotte</p>
-        			<img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
-        		</div>
-        	</div></a>
-        </div>
-    </div>
-        
-        
-        
-        
-
-
-        <div class="bloc-bouton"><a href="contact.html"><input class="bouton-trombi" type="button"value="Contactez-nous"></a></div>
-
+  </div>
+  <div class="bloc-bouton">
+    <a href="contact.html"><input class="bouton-trombi" type="button"value="Contactez-nous"></a>
+  </div>
 
   </section>
 
@@ -89,6 +56,7 @@
         - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
 </footer>
 
+<script src= "trombino.js"></script>
 </body>
 
 </html>
